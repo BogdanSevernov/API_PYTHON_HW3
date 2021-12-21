@@ -1,0 +1,21 @@
+artifact_path: ml_model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.9
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.1
+run_id: 19797e7c74374a639e45ae7fd5ab3f55
+signature:
+  inputs: '[{"name": "ID", "type": "long"}, {"name": "crim", "type": "double"}, {"name":
+    "zn", "type": "double"}, {"name": "indus", "type": "double"}, {"name": "chas",
+    "type": "long"}, {"name": "nox", "type": "double"}, {"name": "rm", "type": "double"},
+    {"name": "age", "type": "double"}, {"name": "dis", "type": "double"}, {"name":
+    "rad", "type": "long"}, {"name": "tax", "type": "long"}, {"name": "ptratio", "type":
+    "double"}, {"name": "black", "type": "double"}, {"name": "lstat", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2021-12-20 15:59:34.639622'

@@ -1,0 +1,10 @@
+2021-12-21 14:52:37,057 - api db - INFO - connected with db
+2021-12-21 14:52:43,264 - data preprocessing - INFO - data preprocessing started
+2021-12-21 14:52:43,282 - data preprocessing - INFO - data preprocessing finished
+2021-12-21 14:52:43,282 - model train - INFO - train started
+2021-12-21 14:52:46,054 - model train - INFO - train finished
+2021-12-21 14:52:46,057 - api db - INFO - info added to table
+2021-12-21 14:52:46,074 - data preprocessing - INFO - data preprocessing started
+2021-12-21 14:52:46,091 - model predict - INFO - predict started
+2021-12-21 14:52:46,099 - model predict - INFO - predict finished
+2021-12-21 14:52:46,126 - data preprocessing - INFO - data preprocessing started
